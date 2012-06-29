@@ -1,0 +1,3 @@
+CXXProgram($(BUILD)/chat_server.exe, main ../wakusocket/server)
+
+.DEFAULT: $(BUILD)/chat_server.exe

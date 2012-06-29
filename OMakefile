@@ -1,0 +1,5 @@
+CXXFLAGS += -std=c++0x -g -Wall -lboost_system-mt -lboost_thread-mt -lpthread
+BUILD = $(file build)
+
+.SUBDIRS: simple_chat wakusocket
+
