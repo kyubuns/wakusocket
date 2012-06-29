@@ -1,0 +1,3 @@
+CXXProgram($(BUILD)/echo_server.exe, main ../wakusocket/server)
+
+.DEFAULT: $(BUILD)/echo_server.exe
